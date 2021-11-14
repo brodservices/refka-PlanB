@@ -754,7 +754,7 @@ table {
 .welcomesec2{
   background-color: rgba(255, 192, 203, 0.508); 
   background-attachment: fixed;
-/* height: 800px; */
+height: 540px;
 background-image: url(image/olsa.jpeg) ;
 opacity: 0.5;
 margin-top:-15px;
@@ -808,7 +808,7 @@ text-align: center;
   position: relative;
   display: inline-block;
   padding: 25px 30px;
-  margin: 40px 0;
+  /* margin: 40px 0; */
   color: #241005;
   text-decoration: none;
   text-transform: uppercase;
@@ -816,22 +816,23 @@ text-align: center;
   letter-spacing: 4px;
   overflow: hidden;
 font-size: 30px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   position: absolute;
     bottom:100px;
     right: 78px;
     font-weight: bolder;
     border-radius: 30px;
+    margin: 1px 30px 100px;
  
 }
 .buttonw a:hover{
   background: #f3050593;
   color: #050801;
-  box-shadow: 0 0 5px #77f403,
+  /* box-shadow: 0 0 5px #77f403,
               0 0 25px #77f403,
               0 0 50px #77f403,
               0 0 200px #77f403;
-   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005); */
 }
 .buttonw a:nth-child(1){
   filter: hue-rotate(270deg);
@@ -905,12 +906,12 @@ font-size: 30px;
   animation-delay: 0.75s;
 }
 @keyframes animate4{
-  0%{
+  /* 0%{
       bottom: -100%;
   }
   50%,100%{
       bottom: 100%;
-  }
+  } */
 }
 
 
